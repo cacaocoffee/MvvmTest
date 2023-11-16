@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "472283172861",
+    "project_id": "mvvmtest-7f64a",
+    "storage_bucket": "mvvmtest-7f64a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472283172861:android:cc16c860682b37470cd394",
+        "android_client_info": {
+          "package_name": "com.cacaocoffee.mvvmtest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKP6hHr-Hi0KXOcxflZV2zJwvInImgM1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

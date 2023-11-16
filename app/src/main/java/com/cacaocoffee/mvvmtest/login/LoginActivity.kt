@@ -8,8 +8,10 @@ import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import com.cacaocoffee.mvvmtest.R
 import com.cacaocoffee.mvvmtest.databinding.ActivityLoginBinding
+import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {
+
     lateinit var binding: ActivityLoginBinding
     val loginViewModel: LoginViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,6 +20,7 @@ class LoginActivity : AppCompatActivity() {
         binding.viewModel = loginViewModel
         binding.activity = this
         binding.lifecycleOwner = this
+
         setObserve()
     }
 
@@ -33,10 +36,7 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    fun loginEmail() {
-        println("Email")
-        loginViewModel.showInputNumberActivity.value = true
-    }
+
 
     fun findId() {
         println("findId")
