@@ -8,6 +8,6 @@ class LoginViewModel : ViewModel() {
     var password: MutableLiveData<String> = MutableLiveData("")
 
     var showInputNumberActivity: MutableLiveData<Boolean> = MutableLiveData(false)
-    var findID: MutableLiveData<Boolean> = MutableLiveData(false)
+    var showFindIdActivity: MutableLiveData<Boolean> = MutableLiveData(false)
 
 }
