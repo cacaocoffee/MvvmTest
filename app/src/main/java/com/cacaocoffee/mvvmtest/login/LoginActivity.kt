@@ -20,7 +20,6 @@ class LoginActivity : AppCompatActivity() {
         binding.viewModel = loginViewModel
         binding.activity = this
         binding.lifecycleOwner = this
-
         setObserve()
     }
 
